@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 projects = [
     {
-        "name": "Blog-entry Form with Pythonand MongoDB",
+        "name": "Blog-entry Form with Python and MongoDB",
         "thumb": "img/blog.jpg",
         "hero": "img/blog-hero.jpg",
         "categories": ["flask", "python"],
