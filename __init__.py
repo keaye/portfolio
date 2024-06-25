@@ -16,7 +16,7 @@ projects = [
     {
         "name": "FizzBuzz with Python",
         "thumb": "img/fizzbuzz.jpg",
-        "hero": "img/fizz.png",
+        "hero": "img/fizz-hero.png",
         "categories": ["flask", "python"],
         "slug": "fizz-buzz",
         "prod": "https://testss-rosy.vercel.app/"
