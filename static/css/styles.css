@@ -278,6 +278,9 @@ body {
   transform: translateY(1px);
 }
 
+.hit {
+  justify-content: baseline;
+}
 
 .u-bare-link {
   text-decoration: none;
