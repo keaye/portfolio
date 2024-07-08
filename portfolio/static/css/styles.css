@@ -1,3 +1,6 @@
+
+
+
 *,
 *::before,
 *::after {
@@ -10,6 +13,7 @@ html {
 
 body {
   margin-top: 80px;  
+  background-color: #000;
 }
 
 .header {
@@ -279,8 +283,12 @@ body {
 }
 
 .hit {
-  justify-content: baseline;
+  text-align: end;
+  margin-top: 5rem;
+  color: bisque
 }
+
+
 
 .u-bare-link {
   text-decoration: none;
