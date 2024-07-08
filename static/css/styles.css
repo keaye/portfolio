@@ -74,15 +74,7 @@ body {
 .contact__link {
   color: darkslategray;
   text-decoration: none;
-
-  /* We can modify the text decoration colour and thickness to
-       create a custom underline, but the text-decoration-thickness
-       property isn't currently supported on Chrome.
-       
-       Using box-shadow to simulate the underline gives us a
-       cross-browser solution. */
-
-  box-shadow: 0 3px 0 0 darkslategrey;
+  border-bottom: 3px dotted darkslategrey;
 }
 
 .contact__link:hover {
