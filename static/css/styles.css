@@ -82,11 +82,11 @@ body {
        Using box-shadow to simulate the underline gives us a
        cross-browser solution. */
 
-  box-shadow: 0 3px 0 0 darksalmon;
+  box-shadow: 0 3px 0 0 darkslategrey;
 }
 
 .contact__link:hover {
-  color: darksalmon;
+  color: dimgray;
 }
 
 .projects {
