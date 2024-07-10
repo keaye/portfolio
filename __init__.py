@@ -11,7 +11,7 @@ projects = [
         "hero": "img/blog-hero.jpg",
         "categories": ["flask", "python"],
         "slug": "blog-page",
-        "prod": "https://microblog-gux0.onrender.com",
+        "prod": "https://blog-icg3.onrender.com",
     },
     {
         "name": "FizzBuzz with Python",
