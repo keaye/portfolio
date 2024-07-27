@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 projects = [
     {
-        "name": "Blog-entry Form with Python",
+        "name": "Blog-entry",
         "thumb": "img/blog.jpg",
         "hero": "img/blog-hero.jpg",
         "categories": ["flask", "python"],
@@ -14,7 +14,7 @@ projects = [
         "prod": "https://blog-icg3.onrender.com",
     },
     {
-        "name": "FizzBuzz with Python",
+        "name": "FizzBuzz",
         "thumb": "img/fizzbuzz.jpg",
         "hero": "img/fizz-hero.png",
         "categories": ["flask", "python"],
@@ -22,12 +22,20 @@ projects = [
         "prod": "https://testss-rosy.vercel.app/"
     },
     {
-        "name": " Habit-tracker with Python",
+        "name": " Habit-tracker",
         "thumb": "img/tracker.jpg",
         "hero": "img/tracker-hero.png",
         "categories": ["flask", "python"],
         "slug": "habit-tracker",
         "prod": "https://habit-i6s1.onrender.com"
+    },
+    {
+        "name": "Watchlist",
+        "thumb": "img/watchlist.jpg",
+        "hero": "img/watchlist-hero.png",
+        "categories": ["flask", "python"],
+        "slug": "movie-watchlist",
+        "prod": "https://movie-watchlist-hlxf.onrender.com"
     },
 ]
 
