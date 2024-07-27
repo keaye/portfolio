@@ -133,16 +133,16 @@ body {
 
 
 
-@media (max-width: 600px ) {
+@media (max-width: 70em ) {
   .project-card {
     margin-bottom: 2rem;
     width:  
-  } 
+  }
 }
 
 
 
-@media (max-width: 800px ) {
+@media (max-width: 48.75em) {
   .project-card {
     margin-bottom: 2rem;
     width:  
