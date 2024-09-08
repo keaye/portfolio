@@ -37,6 +37,14 @@ projects = [
         "slug": "movie-watchlist",
         "prod": "https://movie-watchlist-hlxf.onrender.com"
     },
+     {
+        "name": "Weather-App",
+        "thumb": "img/weather.jpg",
+        "hero": "img/weather-hero.png",
+        "categories": ["flask", "python"],
+        "slug": "weather-app",
+        "prod": "https://weather-app-tlvj.onrender.com"
+    },
 ]
 
 slug_to_project = {project["slug"]: project for project in projects}
