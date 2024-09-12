@@ -143,7 +143,7 @@ body {
 
 
 
-@media (max-width: 576px) { /* Adjust the breakpoint as needed */
+@media (max-width: 30em) { /* Adjust the breakpoint as needed */
   .project-card {
     margin-bottom: 3rem;
   }
