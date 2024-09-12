@@ -133,21 +133,14 @@ body {
 
 
 
-@media (max-width: 70em ) {
+@media (max-width: 50em ) {
   .project-card {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   
   }
 }
 
 
-
-@media (max-width: 48.75em) {
-  .project-card {
-    margin-bottom: 2rem;
-  
-  } 
-}
 
 
 
