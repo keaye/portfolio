@@ -132,22 +132,21 @@ body {
 
 
 
-@media (max-width: 50em ) {
+@media (min-width: 50em ) {
   .project-card {
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
   
   }
-}
+} 
 
 
-
-
-
-@media (max-width: 30em) { /* Adjust the breakpoint as needed */
+@media (max-width: 50em ) {
   .project-card {
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
+  
   }
-}
+} 
+
 
 
 
