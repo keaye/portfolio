@@ -149,6 +149,14 @@ body {
 
 
 
+@media (max-width: 20em ) {
+  .project-card {
+    margin-bottom: 2.5rem;
+  
+  }
+} 
+
+
 
 .project-card__meta {
   padding: 0 1.25rem
