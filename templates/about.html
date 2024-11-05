@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% block content %}
-    <main style="color: darkslategrey;" class="main main--about">
+   <body style="
+   color: darkslategrey; 
+   background-image: url('{{ url_for('static', filename='contact.jpeg') }}');" 
+   >
+    <main class="main main--about">
+       
         <p>
             Hello! I'm a passionate "Flask Developer" with a knack for crafting seamless web experiences. 
             I've honed my skills in Python, Flask, HTML5, CSS3, and MongoDB
@@ -26,4 +31,5 @@
             make a meaningful impact online. Let's connect and turn your vision into a digital reality!
         </p>
     </main>
+   </body>
 {% endblock %}

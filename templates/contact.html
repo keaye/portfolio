@@ -1,31 +1,33 @@
 {% extends 'base.html' %}
 {% block content %}
-    <main class="main main--contact">
-        <dl>
-            <div class="contact">
-                <dt style="color: darkslategray;">Email:</dt>
-                <dd class="contact__details">
-                    <a class="contact__link" href="mailto:keemeayo@hotmail.com">
-                        keemeayo [at] hotmail.com
-                    </a>
-                </dd>
-            </div>
-            <div class="contact">
-                <dt style="color: darkslategray;">GitHub:</dt>
-                <dd class="contact__details">
-                    <a class="contact__link" href="https://github.com/keay-maker">
-                        @keay-maker
-                    </a>
-                </dd>
-            </div>
-            <div class="contact">
-                <dt style="color: darkslategray;">LinkedIn:</dt>
-                <dd class="contact__details">
-                    <a class="contact__link" href="www.linkedin.com/in/keemeayo">
-                        @keemeayo
-                    </a>
-                </dd>
-            </div>
-        </dl>
-    </main>
+    <body style="background-image: url('{{ url_for('static', filename='post-bg.jpeg') }}'); width: 100%; height: 600px;">
+        <main class="main main--contact">
+            <dl>
+                <div class="contact">
+                    <dt style="color: darkslategray;">Email:</dt>
+                    <dd class="contact__details">
+                        <a class="contact__link" href="mailto:keemeayo@hotmail.com">
+                            keemeayo [at] hotmail.com
+                        </a>
+                    </dd>
+                </div>
+                <div class="contact">
+                    <dt style="color: darkslategray;">GitHub:</dt>
+                    <dd class="contact__details">
+                        <a class="contact__link" href="https://github.com/keay-maker">
+                            @keay-maker
+                        </a>
+                    </dd>
+                </div>
+                <div class="contact">
+                    <dt style="color: darkslategray;">LinkedIn:</dt>
+                    <dd class="contact__details">
+                        <a class="contact__link" href="https://linkedin.com/in/keay-maker">
+                            @keay-maker
+                        </a>
+                    </dd>
+                </div>
+            </dl>
+        </main>
+    </body>
 {% endblock %}
