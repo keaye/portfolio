@@ -5,22 +5,7 @@ app = Flask(__name__)
 
 
 projects = [
-    {
-        "name": "Blog-entry",
-        "thumb": "img/blog.jpg",
-        "hero": "img/blog-hero.jpg",
-        "categories": ["flask", "python"],
-        "slug": "blog-page",
-        "prod": "https://blog-icg3.onrender.com",
-    },
-    {
-        "name": "FizzBuzz",
-        "thumb": "img/fizzbuzz.jpg",
-        "hero": "img/fizz-hero.png",
-        "categories": ["flask", "python"],
-        "slug": "fizz-buzz",
-        "prod": "https://testss-rosy.vercel.app/"
-    },
+    
     {
         "name": " Habit-tracker",
         "thumb": "img/tracker.jpg",
@@ -44,6 +29,14 @@ projects = [
         "categories": ["flask", "python"],
         "slug": "weather-app",
         "prod": "https://weather-app-tlvj.onrender.com"
+    },
+    {
+        "name": "Blog-App",
+        "thumb": "img/blog.jpg",
+        "hero": "img/blog-hero.png",
+        "categories": ["flask", "python"],
+        "slug": "blog-app",
+        "prod": "https://keay-s-blog.onrender.com"
     },
 ]
 
