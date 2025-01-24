@@ -12,7 +12,7 @@ projects = [
         "hero": "img/weather-hero.png",
         "categories": ["flask", "python"],
         "slug": "weather-app",
-        "prod": "https://keayweather-2532528a5a1b.herokuapp.com/"
+        "prod": "https://weather-app-tlvj.onrender.com"
     },
 
     {
@@ -21,7 +21,7 @@ projects = [
         "hero": "img/blog-hero.png",
         "categories": ["flask", "python"],
         "slug": "blog-app",
-        "prod": "https://keayblog-fb5816475969.herokuapp.com/"
+        "prod": "https://keay-s-blog.onrender.com"
     },
     
     {
