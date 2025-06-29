@@ -12,7 +12,7 @@ projects = [
         "hero": "img/weather-hero.png",
         "categories": ["flask", "python"],
         "slug": "weather-app",
-        "prod": "https://weather-app-tlvj.onrender.com"
+        "prod": "https://scour-one.vercel.app/"
     },
 
     {
@@ -24,22 +24,6 @@ projects = [
         "prod": "https://keay-s-blog.onrender.com"
     },
     
-    {
-        "name": " Habit-tracker",
-        "thumb": "img/tracker.jpg",
-        "hero": "img/tracker-hero.png",
-        "categories": ["flask", "python"],
-        "slug": "habit-tracker",
-        "prod": "https://habit-i6s1.onrender.com"
-    },
-    {
-        "name": "Watchlist",
-        "thumb": "img/watchlist.jpg",
-        "hero": "img/watchlist-hero.png",
-        "categories": ["flask", "python"],
-        "slug": "movie-watchlist",
-        "prod": "https://movie-watchlist-hlxf.onrender.com"
-    },
    
 ]
 
